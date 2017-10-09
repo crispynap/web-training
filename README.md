@@ -4,4 +4,5 @@
 
 ## 사용언어
 백엔드 : node.js + express(jade) + mysql
+
 프론트엔드 : html + css + javascript
