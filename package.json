@@ -1,19 +1,32 @@
 {
-  "name": "web-training",
-  "version": "1.0.0",
-  "description": "웹개발 연습용 저장소",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/crispynap/web-training.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/crispynap/web-training/issues"
-  },
-  "homepage": "https://github.com/crispynap/web-training#readme"
+	"name": "web-training",
+	"version": "1.0.0",
+	"description": "웹개발 연습용 저장소",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/crispynap/web-training.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/crispynap/web-training/issues"
+	},
+	"homepage": "https://github.com/crispynap/web-training#readme",
+	"dependencies": {
+		"body-parser": "^1.17.2",
+		"cookie-parser": "^1.4.3",
+		"express": "^4.15.3",
+		"express-mysql-session": "^1.2.1",
+		"express-session": "^1.15.4",
+		"jade": "^1.11.0",
+		"mysql": "^2.14.1",
+		"node-mysql": "^0.4.2",
+		"passport": "^0.3.2",
+		"passport-local": "^1.0.0",
+		"pbkdf2-password": "^1.2.1"
+	}
 }
